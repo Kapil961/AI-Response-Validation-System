@@ -1,0 +1,1416 @@
+{
+  "dataset": "SQuAD validation",
+  "article": "Martin_Luther",
+  "top_k": 5,
+  "total_exact_paragraph_failures": 122,
+  "questions_analyzed": 122,
+  "answer_string_matches": 13,
+  "answer_string_not_found": 109,
+  "answer_string_match_rate": 0.10655737704918032,
+  "questions": [
+    {
+      "question": "When did Martin Luther die?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 0,
+      "gold_answer": [
+        "18 February 1546"
+      ],
+      "answer_string_found": true,
+      "matched_results": [
+        {
+          "rank": 2,
+          "paragraph_index": 94,
+          "similarity": 0.6194840669631958,
+          "matched_answers": [
+            "18 February 1546"
+          ],
+          "evidence": "An apoplectic stroke deprived him of his speech, and he died shortly afterwards at 2:45 a.m. on 18 February 1546, aged 62, in Eisleben, the city of his birth. He was buried in the Castle Church in Wittenberg, beneath the pulpit. The funeral was held by his friends Johannes Bugenhagen and Philipp Melanchthon. A year later, troops of Luther's adversary Charles V, Holy Roman Emperor entered the town, but were ordered by Charles not to disturb the grave."
+        }
+      ]
+    },
+    {
+      "question": "What organization's teaching did Luther reject?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 0,
+      "gold_answer": [
+        "Catholic Church."
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Since he didn't believe that salvation was acquired through good deeds, how was it achieved?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 1,
+      "gold_answer": [
+        "gift of God's grace"
+      ],
+      "answer_string_found": true,
+      "matched_results": [
+        {
+          "rank": 3,
+          "paragraph_index": 18,
+          "similarity": 0.4728861153125763,
+          "matched_answers": [
+            "gift of God's grace"
+          ],
+          "evidence": "From 1510 to 1520, Luther lectured on the Psalms, the books of Hebrews, Romans, and Galatians. As he studied these portions of the Bible, he came to view the use of terms such as penance and righteousness by the Catholic Church in new ways. He became convinced that the church was corrupt in its ways and had lost sight of what he saw as several of the central truths of Christianity. The most important for Luther was the doctrine of justification – God's act of declaring a sinner righteous – by faith alone through God's grace. He began to teach that salvation or redemption is a gift of God's grace, attainable only through faith in Jesus as the Messiah. \"This one and firm rock, which we call the doctrine of justification,\" he wrote, \"is the chief article of the whole Christian doctrine, which comprehends the understanding of all godliness.\""
+        }
+      ]
+    },
+    {
+      "question": "What book did Martin Luther translate to impact German culture?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 2,
+      "gold_answer": [
+        "Bible"
+      ],
+      "answer_string_found": true,
+      "matched_results": [
+        {
+          "rank": 1,
+          "paragraph_index": 54,
+          "similarity": 0.6766468286514282,
+          "matched_answers": [
+            "Bible"
+          ],
+          "evidence": "Luther's translation used the variant of German spoken at the Saxon chancellery, intelligible to both northern and southern Germans. He intended his vigorous, direct language to make the Bible accessible to everyday Germans, \"for we are removing impediments and difficulties so that other people may read it without hindrance.\""
+        },
+        {
+          "rank": 2,
+          "paragraph_index": 55,
+          "similarity": 0.6617805361747742,
+          "matched_answers": [
+            "Bible"
+          ],
+          "evidence": "Published at a time of rising demand for German-language publications, Luther's version quickly became a popular and influential Bible translation. As such, it made a significant contribution to the evolution of the German language and literature. Furnished with notes and prefaces by Luther, and with woodcuts by Lucas Cranach that contained anti-papal imagery, it played a major role in the spread of Luther's doctrine throughout Germany. The Luther Bible influenced other vernacular translations, such as William Tyndale's English Bible (1525 forward), a precursor of the King James Bible."
+        }
+      ]
+    },
+    {
+      "question": "What did Luther's translation of the Bible promote in the German language?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 2,
+      "gold_answer": [
+        "standard version"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What version of the English translation of the Bible did Luther's translation affect?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 2,
+      "gold_answer": [
+        "Tyndale Bible"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What development did Luther's hymns translations influence?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 2,
+      "gold_answer": [
+        "singing in churches"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did Martin Luther's marriage allow?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 2,
+      "gold_answer": [
+        "Protestant clergy to marry."
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Of what region was Saxony a part?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 3,
+      "gold_answer": [
+        "Holy Roman Empire"
+      ],
+      "answer_string_found": true,
+      "matched_results": [
+        {
+          "rank": 5,
+          "paragraph_index": 26,
+          "similarity": 0.3984813690185547,
+          "matched_answers": [
+            "Holy Roman Empire"
+          ],
+          "evidence": "From their original homelands in Scandinavia and northern Europe, Germanic tribes expanded throughout northern and western Europe in the middle period of classical antiquity; southern Europe in late antiquity, conquering Celtic and other peoples; and by 800 CE, forming the Holy Roman Empire, the first German Empire. However, there was no real systemic continuity from the Western Roman Empire to its German successor which was famously described as \"not holy, not Roman, and not an empire\", as a great number of small states and principalities existed in the loosely autonomous confederation. Although by 1000 CE, the Germanic conquest of central, western, and southern Europe (west of and including Italy) was complete, excluding only Muslim Iberia. There was, however, little cultural integration or national identity, and \"Germany\" remained largely a conceptual term referring to an amorphous area of central Europe."
+        }
+      ]
+    },
+    {
+      "question": "Into what religion was Martin Luther baptized?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 3,
+      "gold_answer": [
+        "Catholic"
+      ],
+      "answer_string_found": true,
+      "matched_results": [
+        {
+          "rank": 4,
+          "paragraph_index": 48,
+          "similarity": 0.5779406428337097,
+          "matched_answers": [
+            "Catholic"
+          ],
+          "evidence": "too papistic; and modern scholars note the conservatism of his alternative to the Catholic mass. Luther's service, however, included congregational singing of hymns and psalms in German, as well as of parts of the liturgy, including Luther's unison setting of the Creed. To reach the simple people and the young, Luther incorporated religious instruction into the weekday services in the form of the catechism. He also provided simplified versions of the baptism and marriage services."
+        },
+        {
+          "rank": 5,
+          "paragraph_index": 0,
+          "similarity": 0.574268102645874,
+          "matched_answers": [
+            "Catholic"
+          ],
+          "evidence": "Martin Luther (/ˈluːθər/ or /ˈluːðər/; German: [ˈmaɐ̯tiːn ˈlʊtɐ] ( listen); 10 November 1483 – 18 February 1546) was a German professor of theology, composer, priest, former monk and a seminal figure in the Protestant Reformation. Luther came to reject several teachings and practices of the Late Medieval Catholic Church. He strongly disputed the claim that freedom from God's punishment for sin could be purchased with money. He proposed an academic discussion of the power and usefulness of indulgences in his Ninety-Five Theses of 1517. His refusal to retract all of his writings at the demand of Pope Leo X in 1520 and the Holy Roman Emperor Charles V at the Diet of Worms in 1521 resulted in his excommunication by the Pope and condemnation as an outlaw by the Emperor."
+        }
+      ]
+    },
+    {
+      "question": "Where did Martin Luther go to school?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 4,
+      "gold_answer": [
+        "University of Erfurt"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "How early did Luther say he had to awaken every day?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 4,
+      "gold_answer": [
+        "at four"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "How did Luther describe his learning at the university?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 4,
+      "gold_answer": [
+        "rote learning"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "In what year did Luther get his degree?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 4,
+      "gold_answer": [
+        "1505"
+      ],
+      "answer_string_found": true,
+      "matched_results": [
+        {
+          "rank": 4,
+          "paragraph_index": 6,
+          "similarity": 0.5853338837623596,
+          "matched_answers": [
+            "1505"
+          ],
+          "evidence": "He later attributed his decision to an event: on 2 July 1505, he was returning to university on horseback after a trip home. During a thunderstorm, a lightning bolt struck near him. Later telling his father he was terrified of death and divine judgment, he cried out, \"Help! Saint Anna, I will become a monk!\" He came to view his cry for help as a vow he could never break. He left law school, sold his books, and entered a closed Augustinian cloister in Erfurt on 17 July 1505. One friend blamed the decision on Luther's sadness over the deaths of two friends. Luther himself seemed saddened by the move. Those who attended a farewell supper walked him to the door of the Black Cloister. \"This day you see me, and then, not ever again,\" he said. His father was furious over what he saw as a waste of Luther's"
+        }
+      ]
+    },
+    {
+      "question": "When did the lightening event happen?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 6,
+      "gold_answer": [
+        "2 July 1505"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did Luther feel he made of Christ?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 7,
+      "gold_answer": [
+        "jailer and hangman"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Who directed Luther away from self-reflection and towards the merits of Christ?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 7,
+      "gold_answer": [
+        "Johann von Staupitz"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What position did Luther have in Wittenberg?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 9,
+      "gold_answer": [
+        "Doctor in Bible"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Where did Luther spend his career?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 9,
+      "gold_answer": [
+        "University of Wittenberg"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What degree did Martin Luther receive on 19 October, 1512?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 9,
+      "gold_answer": [
+        "Doctor of Theology"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What theology states that faith alone isn't enough to justify man?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 10,
+      "gold_answer": [
+        "Roman Catholic"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What does man's justification depend on in faith?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 10,
+      "gold_answer": [
+        "charity and good works"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "When did Martin Luther protest the sale of indulgences to his bishop?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 11,
+      "gold_answer": [
+        "31 October 1517"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "In 1517 who was Luther's bishop?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 11,
+      "gold_answer": [
+        "Albert of Mainz"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Who contends that Luther did not intend to oppose the church?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 11,
+      "gold_answer": [
+        "Hans Hillerbrand"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Who did Martin Luther say was the lone granter of forgiveness?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 13,
+      "gold_answer": [
+        "God"
+      ],
+      "answer_string_found": true,
+      "matched_results": [
+        {
+          "rank": 3,
+          "paragraph_index": 81,
+          "similarity": 0.6310110092163086,
+          "matched_answers": [
+            "God"
+          ],
+          "evidence": "Luther advocated setting synagogues on fire, destroying Jewish prayerbooks, forbidding rabbis from preaching, seizing Jews' property and money, and smashing up their homes, so that these \"envenomed worms\" would be forced into labour or expelled \"for all time\". In Robert Michael's view, Luther's words \"We are at fault in not slaying them\" amounted to a sanction for murder. \"God's anger with them is so intense,\" Luther concluded, \"that gentle mercy will only tend to make them worse, while sharp mercy will reform them but little. Therefore, in any case, away with them!\""
+        },
+        {
+          "rank": 5,
+          "paragraph_index": 1,
+          "similarity": 0.6051025390625,
+          "matched_answers": [
+            "God"
+          ],
+          "evidence": "Luther taught that salvation and subsequently eternal life is not earned by good deeds but is received only as a free gift of God's grace through faith in Jesus Christ as redeemer from sin. His theology challenged the authority and office of the Pope by teaching that the Bible is the only source of divinely revealed knowledge from God and opposed sacerdotalism by considering all baptized Christians to be a holy priesthood. Those who identify with these, and all of Luther's wider teachings, are called Lutherans even though Luther insisted on Christian or Evangelical as the only acceptable names for individuals who professed Christ."
+        }
+      ]
+    },
+    {
+      "question": "What did Luther call these donations?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 13,
+      "gold_answer": [
+        "false assurances"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Who did Luther say that Christians must not slacken in following?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 13,
+      "gold_answer": [
+        "Christ"
+      ],
+      "answer_string_found": true,
+      "matched_results": [
+        {
+          "rank": 3,
+          "paragraph_index": 71,
+          "similarity": 0.672421395778656,
+          "matched_answers": [
+            "Christ"
+          ],
+          "evidence": "Some scholars have asserted that Luther taught that faith and reason were antithetical in the sense that questions of faith could not be illuminated by reason. He wrote, \"All the articles of our Christian faith, which God has revealed to us in His Word, are in presence of reason sheerly impossible, absurd, and false.\" and \"[That] Reason in no way contributes to faith. [...] For reason is the greatest enemy that faith has; it never comes to the aid of spiritual things.\" However, though seemingly contradictorily, he also wrote in the latter work that human reason \"strives not against faith, when enlightened, but rather furthers and advances it\", bringing claims he was a fideist into dispute. Contemporary Lutheran scholarship, however, has found a different reality in Luther. Luther rather seeks to separate faith and reason in order to honor the separate spheres of knowledge that each applies to. Bernhard Lohse,"
+        },
+        {
+          "rank": 4,
+          "paragraph_index": 31,
+          "similarity": 0.6707067489624023,
+          "matched_answers": [
+            "Christ"
+          ],
+          "evidence": "In this work, one of his most emphatic statements on faith, he argued that every good work designed to attract God's favor is a sin. All humans are sinners by nature, he explained, and God's grace (which cannot be earned) alone can make them just. On 1 August 1521, Luther wrote to Melanchthon on the same theme: \"Be a sinner, and let your sins be strong, but let your trust in Christ be stronger, and rejoice in Christ who is the victor over sin, death, and the world. We will commit sins while we are here, for this life is not a place where justice resides.\""
+        }
+      ]
+    },
+    {
+      "question": "Where was Melanchthon at the time?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 15,
+      "gold_answer": [
+        "not in Wittenberg"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What device was one of the first to aid a controversy?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 16,
+      "gold_answer": [
+        "printing press"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Who went to Wittenberg to hear Luther speak?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 17,
+      "gold_answer": [
+        "Students"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What part of Luther's career was one of his most productive?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 17,
+      "gold_answer": [
+        "early part"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did Martin Luther do during 1510 to 1520?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 18,
+      "gold_answer": [
+        "lectured"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What sections of Church dogma did Luther come to view in another way?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 18,
+      "gold_answer": [
+        "penance and righteousness"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did Luther decide about the Catholic Church?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 18,
+      "gold_answer": [
+        "corrupt in its ways"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What, to Luther had the Church lost sight of?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 18,
+      "gold_answer": [
+        "central truths of Christianity"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did Luther tell the legate about the papacy?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 22,
+      "gold_answer": [
+        "papacy was the Antichrist"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did Luther promise to do as a concession?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 23,
+      "gold_answer": [
+        "remain silent"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What scripture did Luther use to back up his opinion that churchmen were not infallible?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 23,
+      "gold_answer": [
+        "Matthew 16:18"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did Luther need to do to avoid excommunication?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 24,
+      "gold_answer": [
+        "recanted 41 sentences"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What was the time limit on Luther's recantation of sentences?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 24,
+      "gold_answer": [
+        "60 days"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Who attempted to arrange a compromise?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 24,
+      "gold_answer": [
+        "Karl von Miltitz"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Who presided over the assembly?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 25,
+      "gold_answer": [
+        "Emperor Charles V"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Who got a safe conduct pass for Luther to come and leave the event?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 25,
+      "gold_answer": [
+        "Prince Frederick III"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did Luther do at the end of his speech?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 27,
+      "gold_answer": [
+        "raised his arm"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "How was the fate of Luther decided?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 29,
+      "gold_answer": [
+        "private conferences"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What could anyone do to Martin Luther without legal consequence?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 29,
+      "gold_answer": [
+        "kill Luther"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Where did the highwaymen take Luther?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 30,
+      "gold_answer": [
+        "Wartburg Castle"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What book did Luther translate into German at this time?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 30,
+      "gold_answer": [
+        "New Testament"
+      ],
+      "answer_string_found": true,
+      "matched_results": [
+        {
+          "rank": 4,
+          "paragraph_index": 53,
+          "similarity": 0.6511709690093994,
+          "matched_answers": [
+            "New Testament"
+          ],
+          "evidence": "Luther had published his German translation of the New Testament in 1522, and he and his collaborators completed the translation of the Old Testament in 1534, when the whole Bible was published. He continued to work on refining the translation until the end of his life. Others had translated the Bible into German, but Luther tailored his translation to his own doctrine. When he was criticised for inserting the word \"alone\" after \"faith\" in Romans 3:28, he replied in part: \"[T]he text itself and the meaning of St. Paul urgently require and demand it. For in that very passage he is dealing with the main point of Christian doctrine, namely, that we are justified by faith in Christ without any works of the Law. ... But when works are so completely cut away – and that must mean that faith alone justifies – whoever would speak plainly and clearly about"
+        }
+      ]
+    },
+    {
+      "question": "How did Luther persuade Archbishop Albrecht to stop the sale of indulgences?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 30,
+      "gold_answer": [
+        "shamed"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "When did Luther start preaching Prophetic faith?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 33,
+      "gold_answer": [
+        "1521"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "At this time where was Luther's focus centered?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 33,
+      "gold_answer": [
+        "Daniel 8:9–12, 23–25"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did the reforms cause?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 34,
+      "gold_answer": [
+        "disturbances"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Who asked Luther to return to the city?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 34,
+      "gold_answer": [
+        "town council"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did Luther think was required to stop the violence?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 35,
+      "gold_answer": [
+        "personal presence"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "How did Luther want people to bring about change?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 35,
+      "gold_answer": [
+        "trust God's word"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What type of people were being brought back to the way of truth?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 36,
+      "gold_answer": [
+        "misguided"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What were the protesters doing with Christ's counsel?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 40,
+      "gold_answer": [
+        "ignoring Christ's counsel"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What is this doctrine of God appointing authorities called?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 40,
+      "gold_answer": [
+        "Divine Right of Kings"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did Luther deny the rebels?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 41,
+      "gold_answer": [
+        "backing for the uprising"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What protection caused Luther's Reformation to flourish?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 41,
+      "gold_answer": [
+        "the secular powers"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "When were Luther and his prospective bride engaged?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 43,
+      "gold_answer": [
+        "13 June 1525"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Besides the walk to the church, what else was left out of the day's celebration?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 43,
+      "gold_answer": [
+        "wedding banquet"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What was the Black Cloister?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 45,
+      "gold_answer": [
+        "former monastery"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Besides taking in boarders, how did Katharina help support the family?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 45,
+      "gold_answer": [
+        "farming the land"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did Luther try to avoid in setting up his church?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 47,
+      "gold_answer": [
+        "extreme change"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What role did Luther play in other areas' churches?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 47,
+      "gold_answer": [
+        "adviser"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What type of education was assessed during this time?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 49,
+      "gold_answer": [
+        "Christian education"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What were many pastors unable to do?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 49,
+      "gold_answer": [
+        "incapable of teaching"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What was one of Luther's most personal writings?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 51,
+      "gold_answer": [
+        "The catechism"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What effort was Luther not particularly in favor of?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 51,
+      "gold_answer": [
+        "writings in volumes"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Besides the Bondage of the Will, what other work did Luther view as a book of his?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 51,
+      "gold_answer": [
+        "the Catechism"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What translation of Luther's is still used today?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 51,
+      "gold_answer": [
+        "the Bible"
+      ],
+      "answer_string_found": true,
+      "matched_results": [
+        {
+          "rank": 1,
+          "paragraph_index": 54,
+          "similarity": 0.7224714756011963,
+          "matched_answers": [
+            "the Bible"
+          ],
+          "evidence": "Luther's translation used the variant of German spoken at the Saxon chancellery, intelligible to both northern and southern Germans. He intended his vigorous, direct language to make the Bible accessible to everyday Germans, \"for we are removing impediments and difficulties so that other people may read it without hindrance.\""
+        },
+        {
+          "rank": 3,
+          "paragraph_index": 53,
+          "similarity": 0.6416710019111633,
+          "matched_answers": [
+            "the Bible"
+          ],
+          "evidence": "Luther had published his German translation of the New Testament in 1522, and he and his collaborators completed the translation of the Old Testament in 1534, when the whole Bible was published. He continued to work on refining the translation until the end of his life. Others had translated the Bible into German, but Luther tailored his translation to his own doctrine. When he was criticised for inserting the word \"alone\" after \"faith\" in Romans 3:28, he replied in part: \"[T]he text itself and the meaning of St. Paul urgently require and demand it. For in that very passage he is dealing with the main point of Christian doctrine, namely, that we are justified by faith in Christ without any works of the Law. ... But when works are so completely cut away – and that must mean that faith alone justifies – whoever would speak plainly and clearly about"
+        }
+      ]
+    },
+    {
+      "question": "What work is useful for pastors?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 52,
+      "gold_answer": [
+        "Larger Catechism"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What are the Catechisms of Martin Luther written in?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 52,
+      "gold_answer": [
+        "German vernacular"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did he work on refining until the end of his life?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 53,
+      "gold_answer": [
+        "the translation"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "According to Luther what justifies us?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 53,
+      "gold_answer": [
+        "Faith alone"
+      ],
+      "answer_string_found": true,
+      "matched_results": [
+        {
+          "rank": 2,
+          "paragraph_index": 19,
+          "similarity": 0.6886143684387207,
+          "matched_answers": [
+            "Faith alone"
+          ],
+          "evidence": "Luther came to understand justification as entirely the work of God. This teaching by Luther was clearly expressed in his 1525 publication On the Bondage of the Will, which was written in response to On Free Will by Desiderius Erasmus (1524). Luther based his position on predestination on St. Paul's epistle to the Ephesians 2:8–10. Against the teaching of his day that the righteous acts of believers are performed in cooperation with God, Luther wrote that Christians receive such righteousness entirely from outside themselves; that righteousness not only comes from Christ but actually is the righteousness of Christ, imputed to Christians (rather than infused into them) through faith. \"That is why faith alone makes someone just and fulfills the law,\" he wrote. \"Faith is that which brings the Holy Spirit through the merits of Christ.\" Faith, for Luther, was a gift from God; the experience of being justified by faith"
+        },
+        {
+          "rank": 3,
+          "paragraph_index": 18,
+          "similarity": 0.6868895292282104,
+          "matched_answers": [
+            "Faith alone"
+          ],
+          "evidence": "From 1510 to 1520, Luther lectured on the Psalms, the books of Hebrews, Romans, and Galatians. As he studied these portions of the Bible, he came to view the use of terms such as penance and righteousness by the Catholic Church in new ways. He became convinced that the church was corrupt in its ways and had lost sight of what he saw as several of the central truths of Christianity. The most important for Luther was the doctrine of justification – God's act of declaring a sinner righteous – by faith alone through God's grace. He began to teach that salvation or redemption is a gift of God's grace, attainable only through faith in Jesus as the Messiah. \"This one and firm rock, which we call the doctrine of justification,\" he wrote, \"is the chief article of the whole Christian doctrine, which comprehends the understanding of all godliness.\""
+        }
+      ]
+    },
+    {
+      "question": "What group did Luther want to understand his works?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 54,
+      "gold_answer": [
+        "everyday Germans"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "To promote accessibility of the works, what did Luther remove?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 54,
+      "gold_answer": [
+        "impediments and difficulties"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "At the time of Martin Luther what was in demand?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 55,
+      "gold_answer": [
+        "German-language publications"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What work of Luther's became popular?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 55,
+      "gold_answer": [
+        "Bible translation"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "In what type of work was Luther prolific?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 56,
+      "gold_answer": [
+        "authoring hymns"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did Luther use to celebrate worship?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 56,
+      "gold_answer": [
+        "singing of German hymns"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What instrument became a national instrument in Germany?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 56,
+      "gold_answer": [
+        "waldzither"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What caused Luther to write hymns?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 57,
+      "gold_answer": [
+        "events in his life"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Why were Johann Esch and Heinrich Voes executed by the Catholic Church?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 57,
+      "gold_answer": [
+        "for Lutheran views"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What is the hymn known as in English?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 57,
+      "gold_answer": [
+        "Flung to the Heedless Winds"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did this hymn presage?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 58,
+      "gold_answer": [
+        "Apostles' Creed"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Where is the Apostles located?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 58,
+      "gold_answer": [
+        "Small Catechism"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What earlier hymn was Luther's  adapted from?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 58,
+      "gold_answer": [
+        "German creedal hymn"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What does the original manuscript show?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 59,
+      "gold_answer": [
+        "multiple revisions"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What was the hymn based on?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 61,
+      "gold_answer": [
+        "Veni redemptor gentium"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What is a Hauptlied?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 61,
+      "gold_answer": [
+        "main hymn"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "How many hymns did Luther write based on the Ten Commandments?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 61,
+      "gold_answer": [
+        "two hymns"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What composer used Luther's hymns in his works?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 64,
+      "gold_answer": [
+        "Johann Sebastian Bach"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Who stated that John Jortin misunderstood Luther?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 67,
+      "gold_answer": [
+        "Francis Blackburne"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Who was Philip I?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 68,
+      "gold_answer": [
+        "Landgrave of Hesse"
+      ],
+      "answer_string_found": true,
+      "matched_results": [
+        {
+          "rank": 1,
+          "paragraph_index": 79,
+          "similarity": 0.4263577461242676,
+          "matched_answers": [
+            "Landgrave of Hesse"
+          ],
+          "evidence": "From December 1539, Luther became implicated in the bigamy of Philip I, Landgrave of Hesse, who wanted to marry one of his wife's ladies-in-waiting. Philip solicited the approval of Luther, Melanchthon, and Bucer, citing as a precedent the polygamy of the patriarchs. The theologians were not prepared to make a general ruling, and they reluctantly advised the landgrave that if he was determined, he should marry secretly and keep quiet about the matter. As a result, on 4 March 1540, Philip married a second wife, Margarethe von der Saale, with Melanchthon and Bucer among the witnesses. However, Philip was unable to keep the marriage secret, and he threatened to make Luther's advice public. Luther told him to \"tell a good, strong lie\" and deny the marriage completely, which Philip did during the subsequent public controversy. In the view of Luther's biographer Martin Brecht, \"giving confessional advice for Philip of Hesse"
+        }
+      ]
+    },
+    {
+      "question": "What one point was not agreed on that was dear to Luther?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 68,
+      "gold_answer": [
+        "nature of the Eucharist"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did Luther insist was present in the bread and wine?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 69,
+      "gold_answer": [
+        "body and blood of Christ"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did Luther call  the consecrated bread and wine?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 69,
+      "gold_answer": [
+        "sacramental union"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did Luther's opponents think that it meant about God's presence?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 69,
+      "gold_answer": [
+        "symbolically present"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did the meeting often become in argument?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 69,
+      "gold_answer": [
+        "confrontational"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did Luther state as a means of discouraging mistreatment of Jews?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 72,
+      "gold_answer": [
+        "Jesus Christ was born a Jew"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did Luther gradually see as hopeless in the Reformation?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 72,
+      "gold_answer": [
+        "Jewish conversion to Christianity"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Who did Luther strike out against in later years?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 72,
+      "gold_answer": [
+        "Jews"
+      ],
+      "answer_string_found": true,
+      "matched_results": [
+        {
+          "rank": 4,
+          "paragraph_index": 82,
+          "similarity": 0.6106489896774292,
+          "matched_answers": [
+            "Jews"
+          ],
+          "evidence": "Luther spoke out against the Jews in Saxony, Brandenburg, and Silesia. Josel of Rosheim, the Jewish spokesman who tried to help the Jews of Saxony in 1537, later blamed their plight on \"that priest whose name was Martin Luther—may his body and soul be bound up in hell!—who wrote and issued many heretical books in which he said that whoever would help the Jews was doomed to perdition.\" Josel asked the city of Strasbourg to forbid the sale of Luther's anti-Jewish works: they refused initially, but did so when a Lutheran pastor in Hochfelden used a sermon to urge his parishioners to murder Jews. Luther's influence persisted after his death. Throughout the 1580s, riots led to the expulsion of Jews from several German Lutheran states."
+        }
+      ]
+    },
+    {
+      "question": "Luther treated Jews in a like way as he treated what group?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 72,
+      "gold_answer": [
+        "Anabaptists"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What book did Luther read in 1542?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 74,
+      "gold_answer": [
+        "Qur'an"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did Luther consider Christ's life?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 77,
+      "gold_answer": [
+        "illustration of the Ten Commandments"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Who did Luther write about, but seldom met?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 80,
+      "gold_answer": [
+        "Jews"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "When was the large work published?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 81,
+      "gold_answer": [
+        "1543"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "How near to his death was the work published?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 81,
+      "gold_answer": [
+        "three years before"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "Who claimed Luther's writings were a blueprint of actions against Jews?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 84,
+      "gold_answer": [
+        "Diarmaid MacCulloch"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did this agitation provide later generations material for?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 85,
+      "gold_answer": [
+        "modern hatred of the Jews"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What did Paul Rose say Luther added to German thought?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 86,
+      "gold_answer": [
+        "hysterical and demonizing mentality"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "When have Lutheran Churches repudiated Luther's statements about the Jews?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 88,
+      "gold_answer": [
+        "Since the 1980s"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "How did Luther's writings sound as he became less healthy?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 90,
+      "gold_answer": [
+        "harsher"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "To where was Luther's final journey?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 92,
+      "gold_answer": [
+        "Mansfeld"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "When was a third visit to Mnafeld scheduled?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 92,
+      "gold_answer": [
+        "early 1546"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "When were the negotiations finished in Mansfeld?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 93,
+      "gold_answer": [
+        "17 February 1546"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What is Psalm 31:5?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 93,
+      "gold_answer": [
+        "prayer of the dying"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "In contrast how were Catholic saints portrayed?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 96,
+      "gold_answer": [
+        "frail Catholic saints"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    },
+    {
+      "question": "What was the image of Luther a contrast to the life of?",
+      "expected_title": "Martin_Luther",
+      "expected_paragraph_index": 96,
+      "gold_answer": [
+        "religious orders"
+      ],
+      "answer_string_found": false,
+      "matched_results": []
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Datasets and generated vector database
+datasets/raw/*
+datasets/processed/*
+rag/vector_store/*
+!datasets/raw/.gitkeep
+!datasets/processed/.gitkeep
+!rag/vector_store/.gitkeep
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+venv-py311/
+
+# Additional virtual environments
+venv-embeddings/
+
+# Keep vector store implementation; exclude generated indexes
+!rag/vector_store/numpy_vector_store.py
