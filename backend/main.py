@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 
 from backend.models.submission import SubmissionRequest
 from backend.services.evaluation_orchestrator import EvaluationOrchestrator
-
+from rag.retrieval.retrieval_engine import RetrievalEngine
 
 app = FastAPI(
     title="AI Response Validation System",
@@ -13,8 +13,16 @@ app = FastAPI(
     version="1.0.0",
 )
 
-# Initialize the evaluation orchestrator
-orchestrator = EvaluationOrchestrator()
+# Initialize RAG retrieval engine once at startup
+retrieval_engine = RetrievalEngine(
+    storage_path="rag/vector_store/squad_train",
+    top_k=5,
+)
+
+# Initialize evaluation orchestrator with RAG
+orchestrator = EvaluationOrchestrator(
+    retrieval_engine=retrieval_engine
+)
 
 
 @app.get("/")

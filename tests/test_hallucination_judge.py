@@ -58,3 +58,19 @@ def test_multiple_claims():
     assert len(result["claims"]) == 2
     assert result["claims"][0]["classification"] == "supported"
     assert result["claims"][1]["classification"] == "potentially_unsupported"
+def test_contradictory_claim():
+    judge = HallucinationJudge()
+
+    result = judge.evaluate(
+        response=(
+            "Machine learning does not enable "
+            "computers to learn from data."
+        ),
+        source_document=(
+            "Machine learning enables computers "
+            "to learn from data."
+        )
+    )
+
+    assert result["status"] == "evaluated"
+    assert result["claims"][0]["classification"] == "contradictory"

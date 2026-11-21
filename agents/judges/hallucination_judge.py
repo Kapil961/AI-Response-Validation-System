@@ -1,5 +1,6 @@
 
 import re
+
 from typing import Optional
 
 
@@ -27,7 +28,73 @@ class HallucinationJudge:
 
     def split_sentences(self, text: str) -> list:
         sentences = re.split(r"(?<=[.!?])\s+", text.strip())
-        return [sentence.strip() for sentence in sentences if sentence.strip()]
+        return [
+            sentence.strip()
+            for sentence in sentences
+            if sentence.strip()
+        ]
+
+    def has_negation(self, text: str) -> bool:
+        return bool(
+            re.search(
+                r"\b(not|never|no)\b",
+                text.lower()
+            )
+        )
+
+    def is_direct_contradiction(
+        self,
+        claim: str,
+        source_document: str
+    ) -> bool:
+
+        claim_negated = self.has_negation(claim)
+
+        ignored_words = {
+            "not", "never", "no",
+            "do", "does", "did",
+            "can", "could", "will",
+            "would", "should"
+        }
+
+        def normalize(text):
+            terms = self.tokenize(text) - ignored_words
+
+            return {
+                word[:-1]
+                if word.endswith("s") and len(word) > 4
+                else word
+                for word in terms
+            }
+
+        claim_terms = normalize(claim)
+
+        if not claim_terms:
+            return False
+
+        for source_sentence in self.split_sentences(source_document):
+
+            source_negated = self.has_negation(source_sentence)
+
+            if claim_negated == source_negated:
+                continue
+
+            source_terms = normalize(source_sentence)
+
+            if not source_terms:
+                continue
+
+            overlap = len(claim_terms & source_terms)
+
+            similarity = overlap / min(
+                len(claim_terms),
+                len(source_terms)
+            )
+
+            if similarity >= 0.80:
+                return True
+
+        return False
 
     def evaluate(
         self,
@@ -56,7 +123,9 @@ class HallucinationJudge:
                 "score": None,
                 "passed": None,
                 "status": "insufficient_evidence",
-                "explanation": "The source document contains no usable evidence.",
+                "explanation": (
+                    "The source document contains no usable evidence."
+                ),
                 "claims": []
             }
 
@@ -67,6 +136,18 @@ class HallucinationJudge:
             claim_words = self.tokenize(sentence)
 
             if not claim_words:
+                continue
+
+            if self.is_direct_contradiction(
+                sentence,
+                source_document
+            ):
+                claims.append({
+                    "claim": sentence,
+                    "support_score": 0.0,
+                    "classification": "contradictory",
+                    "matched_evidence_terms": []
+                })
                 continue
 
             matched_words = claim_words.intersection(source_words)
@@ -95,7 +176,9 @@ class HallucinationJudge:
                 "score": None,
                 "passed": None,
                 "status": "insufficient_evidence",
-                "explanation": "No evaluable claims were found in the response.",
+                "explanation": (
+                    "No evaluable claims were found in the response."
+                ),
                 "claims": []
             }
 
@@ -115,8 +198,10 @@ class HallucinationJudge:
             "status": "evaluated",
             "explanation": (
                 "This baseline checks lexical overlap between response "
-                "sentences and the source document. Potentially unsupported "
-                "claims require further verification; they are not proven false."
+                "sentences and the source document, with a rule-based "
+                "direct-negation check for potential contradictions. "
+                "Other potentially unsupported claims require further "
+                "verification and are not proven false."
             ),
             "claims": claims
         }

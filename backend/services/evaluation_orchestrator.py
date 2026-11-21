@@ -11,7 +11,10 @@ from agents.verdict_agent import VerdictAgent
 
 
 class EvaluationOrchestrator:
-    def __init__(self):
+
+    def __init__(self, retrieval_engine=None):
+        self.retrieval_engine = retrieval_engine
+
         self.relevance_judge = RelevanceJudge()
         self.accuracy_judge = AccuracyJudge()
         self.hallucination_judge = HallucinationJudge()
@@ -19,12 +22,28 @@ class EvaluationOrchestrator:
         self.verdict_agent = VerdictAgent()
 
     def evaluate(self, submission: SubmissionRequest) -> EvaluationResult:
+
+        # Retrieve supporting evidence only when no source is supplied.
+        source_document = submission.source_document
+
+        if not source_document and self.retrieval_engine is not None:
+            retrieved_results = self.retrieval_engine.retrieve(
+                submission.question
+            )
+
+            if retrieved_results:
+                source_document = "\n\n".join(
+                    result["text"] for result in retrieved_results
+                )
+
         relevance = JudgeResult(
             **self.relevance_judge.evaluate(
-                submission.question, submission.ai_response
+                submission.question,
+                submission.ai_response
             )
         )
 
+        # Accuracy continues to use a trusted reference answer.
         accuracy = JudgeResult(
             **self.accuracy_judge.evaluate(
                 response=submission.ai_response,
@@ -32,9 +51,10 @@ class EvaluationOrchestrator:
             )
         )
 
+        # Faithfulness can now use either supplied or retrieved evidence.
         faithfulness_data = self.hallucination_judge.evaluate(
             response=submission.ai_response,
-            source_document=submission.source_document,
+            source_document=source_document,
         )
 
         claim_evidence = "; ".join(
